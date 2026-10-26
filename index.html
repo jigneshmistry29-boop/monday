@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YeloTrip - A Travel Planner | All Trips End in a Story</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-[#FFD600] selection:text-slate-950">
+
+  <!-- TOP UTILITY BAR -->
+  <div class="bg-[#004AAD] text-white text-xs py-2 px-4 border-b border-blue-900">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center gap-2 font-medium">
+        <i class="fa-solid fa-plane text-[#FFD600]"></i>
+        <span>YeloTrip - A Travel Planner • MSME Udyam: UDYAM-GJ-24-0253399</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="mailto:customer.care@yelotrip.com" class="hover:text-[#FFD600] underline"><i class="fa-solid fa-envelope text-[#FFD600] mr-1"></i> customer.care@yelotrip.com</a>
+        <a href="tel:919667334803" class="hover:text-[#FFD600]"><i class="fa-solid fa-phone text-[#FFD600] mr-1"></i> +91 96673 34803</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="sticky top-0 z-50 bg-slate-900/95 border-b border-slate-800 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-xl bg-[#004AAD] border-2 border-[#FFD600] flex items-center justify-center shadow-lg">
+          <i class="fa-solid fa-compass text-[#FFD600] text-xl group-hover:rotate-45 transition duration-300"></i>
+        </div>
+        <div>
+          <div class="text-2xl font-extrabold tracking-tight">Yelo<span class="text-[#FFD600]">Trip</span></div>
+          <div class="text-[10px] text-slate-400 font-medium">All Trips End in a Story</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-semibold">
+        <a href="#destinations" class="hover:text-[#FFD600] transition">Destinations</a>
+        <a href="#packages" class="hover:text-[#FFD600] transition">Packages</a>
+        <a href="#contact" class="hover:text-[#FFD600] transition">Contact Desk</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/919667334803?text=Hello%20YeloTrip%20Travel%20Specialist%20Team,%20I%20would%20like%20to%20plan%20a%20trip." target="_blank" class="px-4 py-2 rounded-xl text-xs font-extrabold bg-[#FFD600] text-slate-950 hover:bg-amber-400 transition shadow">
+          <i class="fa-brands fa-whatsapp mr-1 text-sm"></i> WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative py-20 lg:py-28 px-6 bg-gradient-to-b from-[#004AAD]/40 via-slate-900 to-slate-950 text-center">
+    <div class="max-w-4xl mx-auto space-y-6">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-[#FFD600]/15 text-[#FFD600] border border-[#FFD600]/40">
+        <i class="fa-solid fa-sparkles"></i> YeloTrip - A Travel Planner
+      </div>
+      <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight">
+        All Trips End in a <span class="text-[#FFD600]">Story</span>
+      </h1>
+      <p class="text-slate-300 max-w-2xl mx-auto text-base sm:text-lg">
+        Curated domestic & international journeys, corporate MICE, and accessible senior-friendly travel crafted by the YeloTrip Travel Specialist Team.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 pt-4">
+        <a href="#contact" class="px-6 py-3 rounded-xl font-extrabold bg-[#FFD600] text-slate-950 hover:bg-amber-400 transition shadow-lg">
+          Custom Quote on Request
+        </a>
+        <a href="#destinations" class="px-6 py-3 rounded-xl font-bold bg-[#004AAD] text-white border border-blue-400/40 hover:bg-blue-700 transition shadow-lg">
+          Explore Destinations
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS GRID -->
+  <section id="destinations" class="py-16 px-6 max-w-7xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-xs font-bold uppercase tracking-wider text-[#FFD600]">Curated Itineraries</span>
+      <h2 class="text-3xl font-extrabold mt-1">Popular Destinations</h2>
+      <p class="text-sm text-slate-400 mt-2">Handcrafted travel experiences with verified comfort and expert support.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Card 1 -->
+      <div class="rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-[#FFD600] transition group flex flex-col justify-between">
+        <div>
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=900&q=80" alt="Statue of Unity" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-slate-950/80 text-[#FFD600]">Domestic • Oct–Mar</span>
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-extrabold">Statue of Unity (Ekta Nagar)</h3>
+            <p class="text-xs text-slate-400 mt-2">Viewing Gallery Express Pass, Laser Show, Tent City, and Senior Golf Carts.</p>
+          </div>
+        </div>
+        <div class="p-5 pt-0">
+          <a href="#contact" class="block w-full py-2.5 text-center rounded-xl text-xs font-extrabold bg-[#FFD600] text-slate-950 hover:bg-amber-400 transition">Enquire Now</a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-[#FFD600] transition group flex flex-col justify-between">
+        <div>
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=900&q=80" alt="Kashmir" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-slate-950/80 text-[#FFD600]">Domestic • All Year</span>
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-extrabold">Kashmir & Gulmarg Meadows</h3>
+            <p class="text-xs text-slate-400 mt-2">Dal Lake Luxury Houseboat, Gondola rides, and private heated cab transfers.</p>
+          </div>
+        </div>
+        <div class="p-5 pt-0">
+          <a href="#contact" class="block w-full py-2.5 text-center rounded-xl text-xs font-extrabold bg-[#FFD600] text-slate-950 hover:bg-amber-400 transition">Enquire Now</a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-[#FFD600] transition group flex flex-col justify-between">
+        <div>
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=80" alt="Kerala" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-slate-950/80 text-[#FFD600]">Domestic • Sep–Mar</span>
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-extrabold">Kerala Backwaters & Munnar</h3>
+            <p class="text-xs text-slate-400 mt-2">Alleppey Houseboat, Tea Museums, and relaxed senior-friendly pacing.</p>
+          </div>
+        </div>
+        <div class="p-5 pt-0">
+          <a href="#contact" class="block w-full py-2.5 text-center rounded-xl text-xs font-extrabold bg-[#FFD600] text-slate-950 hover:bg-amber-400 transition">Enquire Now</a>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-[#FFD600] transition group flex flex-col justify-between">
+        <div>
+          <div class="h-48 overflow-hidden relative">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80" alt="Dubai" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+            <span class="absolute top-3 left-3 px-2.5 py-1 rounded-full text-[10px] font-bold bg-slate-950/80 text-[#FFD600]">International • MICE</span>
+          </div>
+          <div class="p-5">
+            <h3 class="text-lg font-extrabold">Dubai & Abu Dhabi Escape</h3>
+            <p class="text-xs text-slate-400 mt-2">Burj Khalifa, Desert Safari, BAPS Hindu Mandir, and pure veg dining.</p>
+          </div>
+        </div>
+        <div class="p-5 pt-0">
+          <a href="#contact" class="block w-full py-2.5 text-center rounded-xl text-xs font-extrabold bg-[#FFD600] text-slate-950 hover:bg-amber-400 transition">Enquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & ENQUIRY DESK -->
+  <section id="contact" class="py-16 px-6 bg-slate-900 border-t border-slate-800">
+    <div class="max-w-3xl mx-auto bg-slate-950 border-2 border-[#FFD600]/40 rounded-3xl p-8 shadow-2xl">
+      <div class="text-center mb-8">
+        <span class="text-xs font-bold uppercase tracking-wider text-[#FFD600]">Direct Lead Desk</span>
+        <h2 class="text-3xl font-extrabold mt-1">Send Your Trip Enquiry</h2>
+        <p class="text-sm text-slate-400 mt-1">Routes directly to <strong class="text-white">customer.care@yelotrip.com</strong></p>
+      </div>
+
+      <form action="https://formsubmit.co/customer.care@yelotrip.com" method="POST" class="space-y-4">
+        <input type="hidden" name="_subject" value="New YeloTrip Website Enquiry">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 mb-1">Your Name *</label>
+            <input type="text" name="Client_Name" required placeholder="Enter full name" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:border-[#FFD600] focus:outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-300 mb-1">Phone / WhatsApp *</label>
+            <input type="tel" name="Client_Phone" required placeholder="+91 98765 43210" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:border-[#FFD600] focus:outline-none">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 mb-1">Email Address *</label>
+            <input type="email" name="Client_Email" required placeholder="you@example.com" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:border-[#FFD600] focus:outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-300 mb-1">Destination / Package</label>
+            <input type="text" name="Destination" placeholder="Kashmir, Dubai, Statue of Unity..." class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:border-[#FFD600] focus:outline-none">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 mb-1">Special Requirements (Pure Veg/Jain, Senior Pacing, Wheelchair)</label>
+          <textarea name="Special_Notes" rows="3" placeholder="Tell the YeloTrip team about your dream journey..." class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:border-[#FFD600] focus:outline-none"></textarea>
+        </div>
+
+        <div class="pt-2">
+          <button type="submit" class="w-full py-3.5 rounded-xl font-extrabold bg-[#FFD600] text-slate-950 hover:bg-amber-400 transition shadow-lg cursor-pointer">
+            Send Email Enquiry to customer.care@yelotrip.com
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 py-12 px-6 border-t border-slate-800 text-xs">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <div class="text-xl font-extrabold text-white">Yelo<span class="text-[#FFD600]">Trip</span></div>
+        <p class="text-[#FFD600] font-semibold mt-1">“All Trips End in a Story”</p>
+        <p class="mt-2">Managed by the YeloTrip Travel Specialist Team.</p>
+        <p class="mt-1 text-slate-500">MSME Udyam Reg. No.: <strong class="text-slate-300">UDYAM-GJ-24-0253399</strong></p>
+      </div>
+      <div>
+        <div class="text-sm font-bold text-white uppercase mb-2">Registered Headquarters</div>
+        <p>C-204, Samanvay Status 1, Padra Road, Atladra, Vadodara, Gujarat 390012, India</p>
+        <p class="mt-2">Customer Care: <a href="mailto:customer.care@yelotrip.com" class="text-[#FFD600] underline">customer.care@yelotrip.com</a></p>
+        <p>Phone / WhatsApp: <strong class="text-white">+91 96673 34803</strong></p>
+      </div>
+      <div>
+        <div class="text-sm font-bold text-white uppercase mb-2">Statutory & Escalation Desk</div>
+        <p>Founder & Chief Service Facilitator Desk:</p>
+        <p><a href="mailto:jignesh.mistry@yelotrip.com" class="text-[#FFD600] underline">jignesh.mistry@yelotrip.com</a></p>
+        <p class="mt-4 text-slate-500">© 2026 YeloTrip - A Travel Planner. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
